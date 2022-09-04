@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" ></script>
+  <script src="script.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="search-wrapper">
+    <div class="search-box">
+    <label for="search">Search Users</label>
+    <input type="search" placeholder="Enter Your Domain..." id="search" data-search>
+    <a class="search-btn" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+  </div>
+  </div>
+  <div class="user-cards" data-user-cards-container></div>
+  <template data-user-template>
+    <div class="card">
+      <div class="header" data-header></div>
+      <div class="body" data-body></div>
+    </div>
+  </template>
+</body>
+</html> 
